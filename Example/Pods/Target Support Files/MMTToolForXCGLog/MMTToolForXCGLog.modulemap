@@ -1,0 +1,6 @@
+framework module MMTToolForXCGLog {
+  umbrella header "MMTToolForXCGLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

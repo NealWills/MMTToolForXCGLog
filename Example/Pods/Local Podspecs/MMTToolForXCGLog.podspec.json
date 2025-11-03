@@ -1,0 +1,22 @@
+{
+  "name": "MMTToolForXCGLog",
+  "version": "0.1.0",
+  "summary": "A short description of MMTToolForXCGLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Donghn/MMTToolForXCGLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Donghn": "Donghn@maxeye.com"
+  },
+  "source": {
+    "git": "https://github.com/Donghn/MMTToolForXCGLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MMTToolForXCGLog/Classes/**/*"
+}

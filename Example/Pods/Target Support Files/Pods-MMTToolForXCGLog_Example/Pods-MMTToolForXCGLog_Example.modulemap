@@ -1,0 +1,6 @@
+framework module Pods_MMTToolForXCGLog_Example {
+  umbrella header "Pods-MMTToolForXCGLog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
