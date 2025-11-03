@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForXCGLog'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MMTToolForXCGLog.'
+  s.version          = '0.1.1'
+  s.summary          = 'XCG Log Extension Tool'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A custom tool extension for XCGLogger that provides additional logging functionality and features to enhance your logging experience in Swift applications.
                        DESC
 
-  s.homepage         = 'https://github.com/Donghn/MMTToolForXCGLog'
+  s.homepage         = 'git@github.com:NealWills/MMTToolForXCGLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Donghn' => 'Donghn@maxeye.com' }
-  s.source           = { :git => 'https://github.com/Donghn/MMTToolForXCGLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:NealWills/MMTToolForXCGLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'MMTToolForXCGLog/Classes/**/*'
   
