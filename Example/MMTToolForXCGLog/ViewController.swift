@@ -12,6 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeZone = TimeZone.autoupdatingCurrent
+        dateFormatter.dateFormat = "yyyy_MM_dd hh:mm:ss.SSS"
+        
+        Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: { _ in
+            let date = Date()
+            let time = dateFormatter.string(from: date)
+            log.info("log info: \(time)")
+        })
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

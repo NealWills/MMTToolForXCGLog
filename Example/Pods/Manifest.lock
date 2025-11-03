@@ -1,50 +1,25 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - iOSSnapshotTestCase (8.0.0):
-    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
-  - iOSSnapshotTestCase/Core (8.0.0)
-  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
-    - iOSSnapshotTestCase/Core
-  - MMTToolForXCGLog (0.1.0)
-  - Nimble (10.0.0)
-  - Nimble-Snapshots (9.4.0):
-    - Nimble-Snapshots/Core (= 9.4.0)
-  - Nimble-Snapshots/Core (9.4.0):
-    - iOSSnapshotTestCase (~> 8.0)
-    - Nimble
-  - Quick (2.2.1)
+  - MMTToolForXCGLog (0.1.1):
+    - ObjcExceptionBridging (~> 7.1.5)
+  - ObjcExceptionBridging (7.1.5):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.5)
+  - ObjcExceptionBridging/ObjcExceptionBridging (7.1.5)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - MMTToolForXCGLog (from `../`)
-  - Nimble (~> 10.0.0)
-  - Nimble-Snapshots (~> 9.4.0)
-  - Quick (~> 2.2.0)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-    - iOSSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
+    - ObjcExceptionBridging
 
 EXTERNAL SOURCES:
   MMTToolForXCGLog:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
-  MMTToolForXCGLog: 12e87019f2cd7276cd33dbd2fca6cd32444a51fb
-  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
-  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  MMTToolForXCGLog: fcf21fbfabb084c932345ae7af46b78b1b5cdc9a
+  ObjcExceptionBridging: d3d37d62981bb7f252ecb31b62d7e23a96bbfb8a
 
-PODFILE CHECKSUM: 1af083f92abb7b7ad4810cfb74b8001f4074234e
+PODFILE CHECKSUM: 9d5b2efb6b597117ee542cfd917c0db4dfb83677
 
 COCOAPODS: 1.16.2
