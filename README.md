@@ -1,3 +1,5 @@
+![Header Image](Resources/MMTToolForGCXLogger.png)
+
 # MMTToolForXCGLog
 
 [![CI Status](https://img.shields.io/travis/Donghn/MMTToolForXCGLog.svg?style=flat)](https://travis-ci.org/Donghn/MMTToolForXCGLog)
