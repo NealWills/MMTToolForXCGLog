@@ -63,7 +63,7 @@ open class AutoRotatingFileDestination: FileDestination {
                 static var archiveSuffixDateFormatter: DateFormatter = {
                     let defaultArchiveSuffixDateFormatter = DateFormatter()
                     defaultArchiveSuffixDateFormatter.locale = NSLocale.current
-                    defaultArchiveSuffixDateFormatter.dateFormat = "_HH_mm_ss_SSS"
+                    defaultArchiveSuffixDateFormatter.dateFormat = "_yyyy_MM_dd_HH_mm_ss_SSS"
                     return defaultArchiveSuffixDateFormatter
                 }()
             }

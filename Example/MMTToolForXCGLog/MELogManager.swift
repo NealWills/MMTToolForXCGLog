@@ -45,12 +45,12 @@ let logTestOneMinites: XCGLogger = { // see bug report: rdar://49294916 or https
             log.debug("无法创建目录： \(logDirectory)_\(error.localizedDescription)")
         }
     }
-    let dateFormatter = DateFormatter()
-    dateFormatter.timeZone = TimeZone.autoupdatingCurrent
-    dateFormatter.dateFormat = "yyyy_MM_dd"
-    let day = dateFormatter.string(from: Date())
-    let logPath = logDirectory.appendingPathComponent("meatmeet_ble_ota_log_" + day)
-    let logArchiveDir: URL = logDirectory.appendingPathComponent("archive/\(day)")
+//    let dateFormatter = DateFormatter()
+//    dateFormatter.timeZone = TimeZone.autoupdatingCurrent
+//    dateFormatter.dateFormat = "yyyy_MM_dd"
+//    let day = dateFormatter.string(from: Date())
+    let logPath = logDirectory.appendingPathComponent("meatmeet_ble_ota_log")
+    let logArchiveDir: URL = logDirectory.appendingPathComponent("archive")
     let autoRotatingFileDestination = AutoRotatingFileDestination(
         writeToFile: logPath,
         identifier: "MeatmeetBleOtaLogger.fileDestination",
@@ -74,7 +74,7 @@ let logTestOneMinites: XCGLogger = { // see bug report: rdar://49294916 or https
 
     // Process this destination in the background
     autoRotatingFileDestination.logQueue = XCGLogger.logQueue
-
+    
     // Add colour (using the ANSI format) to our file log, you can see the colour when `cat`ing or `tail`ing the file in Terminal on macOS
     let ansiColorLogFormatter = ANSIColorLogFormatter()
     ansiColorLogFormatter.colorize(level: .verbose, with: .colorIndex(number: 244), options: [.faint])
@@ -120,6 +120,9 @@ let logTestOneMinites: XCGLogger = { // see bug report: rdar://49294916 or https
 
     let customLogFormatter = MECustomLogFormatter()
     log.formatters = [customLogFormatter]
+    
+    autoRotatingFileDestination.rotateFile()
+    
     return log
 }()
 

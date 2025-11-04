@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         dateFormatter.timeZone = TimeZone.autoupdatingCurrent
         dateFormatter.dateFormat = "yyyy_MM_dd hh:mm:ss.SSS"
         
+        
+        
+        
+        
         Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: { _ in
             let date = Date()
             let time = dateFormatter.string(from: date)
