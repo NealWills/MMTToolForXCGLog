@@ -1,4 +1,4 @@
-![Header Image](Resources/MMTToolForGCXLogger.png)
+![Header Image](Resources/MMTToolForXCGLogger.png)
 
 # MMTToolForXCGLog
 
