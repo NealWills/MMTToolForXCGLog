@@ -36,7 +36,7 @@ open class AutoRotatingFileDestination: FileDestination {
     }
 
     /// Option: the desired number of archived log files to keep (number of log files may exceed this, it's a guideline only)
-    open var targetMaxLogFiles: UInt8 = 10 {
+    open var targetMaxLogFiles: UInt16 = 10 {
         didSet {
             cleanUpLogFiles()
         }
@@ -63,7 +63,7 @@ open class AutoRotatingFileDestination: FileDestination {
                 static var archiveSuffixDateFormatter: DateFormatter = {
                     let defaultArchiveSuffixDateFormatter = DateFormatter()
                     defaultArchiveSuffixDateFormatter.locale = NSLocale.current
-                    defaultArchiveSuffixDateFormatter.dateFormat = "_yyyy-MM-dd_HHmmss"
+                    defaultArchiveSuffixDateFormatter.dateFormat = "_HH_mm_ss_SSS"
                     return defaultArchiveSuffixDateFormatter
                 }()
             }
@@ -103,7 +103,7 @@ open class AutoRotatingFileDestination: FileDestination {
     }
 
     // MARK: - Life Cycle
-    public init(owner: XCGLogger? = nil, writeToFile: Any, identifier: String = "", shouldAppend: Bool = false, appendMarker: String? = "-- ** ** ** --", attributes: [FileAttributeKey: Any]? = nil, maxFileSize: UInt64 = autoRotatingFileDefaultMaxFileSize, maxTimeInterval: TimeInterval = autoRotatingFileDefaultMaxTimeInterval, archiveSuffixDateFormatter: DateFormatter? = nil, targetMaxLogFiles: UInt8 = 10) {
+    public init(owner: XCGLogger? = nil, writeToFile: Any, identifier: String = "", shouldAppend: Bool = false, appendMarker: String? = "-- ** ** ** --", attributes: [FileAttributeKey: Any]? = nil, maxFileSize: UInt64 = autoRotatingFileDefaultMaxFileSize, maxTimeInterval: TimeInterval = autoRotatingFileDefaultMaxTimeInterval, archiveSuffixDateFormatter: DateFormatter? = nil, targetMaxLogFiles: UInt16 = 10) {
         super.init(owner: owner, writeToFile: writeToFile, identifier: identifier, shouldAppend: true, appendMarker: shouldAppend ? appendMarker : nil, attributes: attributes)
 
         currentLogStartTimeInterval = Date().timeIntervalSince1970

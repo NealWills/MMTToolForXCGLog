@@ -14,7 +14,7 @@ let documentsDirectory: URL = {
 }()
 
 
-let bleOtaLog: XCGLogger = { // see bug report: rdar://49294916 or https://openradar.appspot.com/radar?id=4952305786945536
+let logTestOneMinites: XCGLogger = { // see bug report: rdar://49294916 or https://openradar.appspot.com/radar?id=4952305786945536
     // Setup XCGLogger (Advanced/Recommended Usage)
     // Create a logger object with no destinations
     let log = XCGLogger(identifier: "MeatmeetBleOtaLogger", includeDefaultDestinations: false)
@@ -50,17 +50,19 @@ let bleOtaLog: XCGLogger = { // see bug report: rdar://49294916 or https://openr
     dateFormatter.dateFormat = "yyyy_MM_dd"
     let day = dateFormatter.string(from: Date())
     let logPath = logDirectory.appendingPathComponent("meatmeet_ble_ota_log_" + day)
+    let logArchiveDir: URL = logDirectory.appendingPathComponent("archive/\(day)")
     let autoRotatingFileDestination = AutoRotatingFileDestination(
         writeToFile: logPath,
         identifier: "MeatmeetBleOtaLogger.fileDestination",
         shouldAppend: true,
         attributes: [.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication], // Set file attributes on the log file
-        maxFileSize: 1024 * 1024 * 500, // 5k, not a good size for production (default is 1 megabyte)
-        maxTimeInterval: 60 * 60 * 24, // 1 minute, also not good for production (default is 10 minutes)
-        targetMaxLogFiles: 255
+        maxFileSize: 1024 * 102, // 100k
+        maxTimeInterval: 60 * 60 * 10, // 10h
+        targetMaxLogFiles: 10000
     ) // Default is 10, max is 255
 
     // Optionally set some configuration options
+    autoRotatingFileDestination.archiveFolderURL = logArchiveDir
     autoRotatingFileDestination.outputLevel = .info
     autoRotatingFileDestination.showLogIdentifier = false
     autoRotatingFileDestination.showFunctionName = true
@@ -163,9 +165,9 @@ let bleLog: XCGLogger = { // see bug report: rdar://49294916 or https://openrada
         identifier: "MeatmeetBleLogger.fileDestination",
         shouldAppend: true,
         attributes: [.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication], // Set file attributes on the log file
-        maxFileSize: 1024 * 1024 * 500, // 5k, not a good size for production (default is 1 megabyte)
-        maxTimeInterval: 60 * 60 * 24, // 1 minute, also not good for production (default is 10 minutes)
-        targetMaxLogFiles: 255
+        maxFileSize: 1024 * 1024 * 10, // 10MB
+        maxTimeInterval: 60 * 60 * 3, // 3h
+        targetMaxLogFiles: 200
     ) // Default is 10, max is 255
 
     // Optionally set some configuration options
@@ -270,9 +272,9 @@ let deviceSearchLog: XCGLogger = { // see bug report: rdar://49294916 or https:/
         identifier: "MeatmeetBleSearchLogger.fileDestination",
         shouldAppend: true,
         attributes: [.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication], // Set file attributes on the log file
-        maxFileSize: 1024 * 1024 * 500, // 5k, not a good size for production (default is 1 megabyte)
-        maxTimeInterval: 60 * 60 * 24, // 1 minute, also not good for production (default is 10 minutes)
-        targetMaxLogFiles: 255
+        maxFileSize: 1024 * 1024 * 10, // 10MB
+        maxTimeInterval: 60 * 60 * 3, // 3h
+        targetMaxLogFiles: 200
     ) // Default is 10, max is 255
 
     // Optionally set some configuration options
@@ -367,6 +369,7 @@ let log: XCGLogger = { // see bug report: rdar://49294916 or https://openradar.a
             log.debug("无法创建目录： \(logDirectory)_\(error.localizedDescription)")
         }
     }
+    
     let dateFormatter = DateFormatter()
     dateFormatter.timeZone = TimeZone.autoupdatingCurrent
     dateFormatter.dateFormat = "yyyy_MM_dd"
@@ -377,9 +380,9 @@ let log: XCGLogger = { // see bug report: rdar://49294916 or https://openradar.a
         identifier: "MeatmeetLogger.fileDestination",
         shouldAppend: true,
         attributes: [.protectionKey: FileProtectionType.completeUntilFirstUserAuthentication], // Set file attributes on the log file
-        maxFileSize: 1024 * 1024 * 500, // 5k, not a good size for production (default is 1 megabyte)
-        maxTimeInterval: 60 * 60 * 24, // 1 minute, also not good for production (default is 10 minutes)
-        targetMaxLogFiles: 255
+        maxFileSize: 1024 * 1024 * 10, // 10MB
+        maxTimeInterval: 60 * 60 * 3, // 3h
+        targetMaxLogFiles: 200
     ) // Default is 10, max is 255
 
     // Optionally set some configuration options

@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: { _ in
             let date = Date()
             let time = dateFormatter.string(from: date)
-            log.info("log info: \(time)")
+//            log.info("log info: \(time)")
+            logTestOneMinites.info("log info: \(time)")
         })
         
         // Do any additional setup after loading the view, typically from a nib.
