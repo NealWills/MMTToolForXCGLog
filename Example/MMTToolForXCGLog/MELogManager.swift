@@ -21,6 +21,8 @@ let logTestOneMinites: XCGLogger = { // see bug report: rdar://49294916 or https
 
     // Create a destination for the system console log (via NSLog)
     let systemDestination = AppleSystemLogDestination(identifier: "MeatmeetBleOtaLogger.appleSystemLogDestination")
+    
+    systemDestination.showLogInCmd = false
 
     // Optionally set some configuration options
     systemDestination.outputLevel = .debug

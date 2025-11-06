@@ -23,6 +23,8 @@ open class AppleSystemLogDestination: BaseQueuedDestination {
             // ignored, NSLog adds the date, so we always want showDate to be false in this subclass
         }
     }
+    
+    public var showLogInCmd: Bool = true
 
     // MARK: - Overridden Methods
     /// Print the log to the Apple System Log facility (using NSLog).
@@ -33,24 +35,27 @@ open class AppleSystemLogDestination: BaseQueuedDestination {
     /// - Returns:  Nothing
     ///
     open override func write(message: String) {
-//        NSLog("%@", message)
-    let date = Date()
-    let dateFormatter = DateFormatter()
-    dateFormatter.timeZone = TimeZone.autoupdatingCurrent
-    dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
-    let dateStr = dateFormatter.string(from: date)
-    
-    let list = message.components(separatedBy: " > ")
-    let item0 = list.first ?? ""
-    let infoList = item0.components(separatedBy: " ")
-    var info0 = ""
-    var info1 = ""
-    if infoList.count >= 4 {
-        info0 = infoList[0] + " " + infoList[1]
-        info1 = infoList[2] + " " + infoList[3]
-    }
-    let item1 = list.last ?? ""
-    print(
+        //        NSLog("%@", message)
+        
+        if !showLogInCmd { return }
+        
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeZone = TimeZone.autoupdatingCurrent
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
+        let dateStr = dateFormatter.string(from: date)
+        
+        let list = message.components(separatedBy: " > ")
+        let item0 = list.first ?? ""
+        let infoList = item0.components(separatedBy: " ")
+        var info0 = ""
+        var info1 = ""
+        if infoList.count >= 4 {
+            info0 = infoList[0] + " " + infoList[1]
+            info1 = infoList[2] + " " + infoList[3]
+        }
+        let item1 = list.last ?? ""
+        print(
         """
         =======================
           \(dateStr)

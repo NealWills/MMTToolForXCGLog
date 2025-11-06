@@ -47,7 +47,7 @@
 		F04D85152891E3B30E3E70D65817CE3D /* MMTToolForXCGLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932D2B9017D124E8296D04409373F687 /* MMTToolForXCGLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB5141511A22260C790AB9DC5030C1EA /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2F58B79014A4BAC8021935593DFFB /* TestDestination.swift */; };
 		FB9CEFEB6B2EF3E9A45CFAB2779E26F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging-ObjcExceptionBridging in Resources */ = {isa = PBXBuildFile; fileRef = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging-ObjcExceptionBridging */; };
+		FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,13 +92,13 @@
 		038CEF73F57F08725D80003BC17445B6 /* ObjcExceptionBridging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-prefix.pch"; sourceTree = "<group>"; };
 		0D66C9836485A307ADC41AE52DACD9CC /* MMTToolForXCGLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.release.xcconfig; sourceTree = "<group>"; };
 		1328D394E63D604AA7D1CFE3C6C5BCC8 /* MMTToolForXCGLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.debug.xcconfig; sourceTree = "<group>"; };
-		1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjcExceptionBridging; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4BCEC5E6A964AB9C84B93EDDF48FB4 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		26D01725303CF6080FBEB651F1FDB010 /* TagFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagFilter.swift; sourceTree = "<group>"; };
-		276D7829DC51EA3EECEADAF4F1AFDE13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MMTToolForXCGLog/Classes/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		276D7829DC51EA3EECEADAF4F1AFDE13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = MMTToolForXCGLog/Classes/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2808C0AA60AF7262C29801E8B8E192CF /* ObjcExceptionBridging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcExceptionBridging-dummy.m"; sourceTree = "<group>"; };
 		2972D7332BC8510A9605135E01A3A96B /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
-		3167A2FB36CC6C16B80D1ECA25584BA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3167A2FB36CC6C16B80D1ECA25584BA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		393FC1F662C212D2FBAAAFB45FAD8A83 /* Pods-MMTToolForXCGLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTToolForXCGLog_Tests.modulemap"; sourceTree = "<group>"; };
 		3C363BA32E38A116DA2AB3B5F738A94A /* ObjectiveCMarker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjectiveCMarker.m; path = Sources/ObjcExceptionBridging/ObjectiveCMarker.m; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		40F8C8AA3672784703325AE3D44E91BC /* Pods-MMTToolForXCGLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTToolForXCGLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		45C30E7FDC208B133045A9D49E749638 /* FileNameFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileNameFilter.swift; sourceTree = "<group>"; };
 		461E375F5ECE5A726FAC03BE4702F99A /* ANSIColorLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANSIColorLogFormatter.swift; sourceTree = "<group>"; };
-		4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods-MMTToolForXCGLog_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForXCGLog_Tests"; path = Pods_MMTToolForXCGLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods_MMTToolForXCGLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForXCGLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAFD04C9C6D422B9CD09E354A272260 /* MMTToolForXCGLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-prefix.pch"; sourceTree = "<group>"; };
 		4F6F661D0D331113CC4BA79BAFD389C4 /* Pods-MMTToolForXCGLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Example-Info.plist"; sourceTree = "<group>"; };
 		513AE547ECE0338DF97B1B4752EAC418 /* ObjcExceptionBridging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjcExceptionBridging.modulemap; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		6556A87C94337DBBEB8A7EA5C227D7FD /* Base64LogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Base64LogFormatter.swift; sourceTree = "<group>"; };
 		66AEFBD62AB02395BD2B0E68F780EDA0 /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = MMTToolForXCGLog/Classes/XCGLogger.swift; sourceTree = "<group>"; };
 		6A640D10608543CF63F70F2D16156AD1 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
-		6BFE9869ECD6A299C355E9FE7913A731 /* Pods-MMTToolForXCGLog_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForXCGLog_Example"; path = Pods_MMTToolForXCGLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFE9869ECD6A299C355E9FE7913A731 /* Pods_MMTToolForXCGLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForXCGLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDDE54DB71BF223D64BD9E857E1BC4D /* ObjcExceptionBridging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjcExceptionBridging-Info.plist"; sourceTree = "<group>"; };
 		6FD2D197B0E00098C7DD88927997E5F8 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
 		76A0B0264835DD4E4A953C1E57B97211 /* Pods-MMTToolForXCGLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -133,32 +133,32 @@
 		932D2B9017D124E8296D04409373F687 /* MMTToolForXCGLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-umbrella.h"; sourceTree = "<group>"; };
 		964F55A2989395A45E5512EE62623156 /* MMTToolForXCGLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForXCGLog-Info.plist"; sourceTree = "<group>"; };
 		9703A516E1BD5930BB70010E1025FA1E /* PrePostFixLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrePostFixLogFormatter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABF3AE3DC6FB62DC9B29CB3D4C98F2F9 /* MMTToolForXCGLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForXCGLog.modulemap; sourceTree = "<group>"; };
 		AC5E0C74816A3D914C24B6795CCAA8A0 /* LogFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogFormatterProtocol.swift; sourceTree = "<group>"; };
 		ADCDFA28B438D24AAB3ECBAEFDE7EAFE /* Pods-MMTToolForXCGLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AEE33FD6C45659691E50A342EAED5575 /* Pods-MMTToolForXCGLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTToolForXCGLog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B6551562FC9B20010E171BF168B49B5A /* UserInfoHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfoHelpers.swift; sourceTree = "<group>"; };
 		C0E2F58B79014A4BAC8021935593DFFB /* TestDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestDestination.swift; sourceTree = "<group>"; };
-		C23B1FD54712D3781EC2394B1744D5E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C23B1FD54712D3781EC2394B1744D5E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C3FD3B300A5663F77E16F3D28F6A169E /* Pods-MMTToolForXCGLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcExceptionBridging.release.xcconfig; sourceTree = "<group>"; };
 		CD17D3418AC817537DFF7D788D34DDF9 /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogDetails.swift; sourceTree = "<group>"; };
 		CD1F4F11DF6A1BCD444A13CF19AEFC31 /* Pods-MMTToolForXCGLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D2B614F9C05081D883188928A42E34FC /* Pods-MMTToolForXCGLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTToolForXCGLog_Example-umbrella.h"; sourceTree = "<group>"; };
-		D2BFA2112FC614E30835468925D2BFA8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/ObjcExceptionBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		D6D07A15BDE57EAF5DC4F8D91384BDE8 /* MMTToolForXCGLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMTToolForXCGLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2BFA2112FC614E30835468925D2BFA8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/ObjcExceptionBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D6D07A15BDE57EAF5DC4F8D91384BDE8 /* MMTToolForXCGLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForXCGLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E139589FC39D5D6D133FEEBBC17F0E20 /* BaseQueuedDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseQueuedDestination.swift; sourceTree = "<group>"; };
 		E539D5D5B467D1374027B6398E3A6E33 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
 		E8DB7E6207B7E6F0CDEA5B162890E93A /* ObjcExceptionBridging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-umbrella.h"; sourceTree = "<group>"; };
 		E92D87FE3B69F035A1CC11EE52138562 /* DestinationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinationProtocol.swift; sourceTree = "<group>"; };
 		ECEEF3AF5EFFA5EBC2DE2D009E68E059 /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevFilter.swift; sourceTree = "<group>"; };
-		EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging-ObjcExceptionBridging */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ObjcExceptionBridging-ObjcExceptionBridging"; path = ObjcExceptionBridging.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcExceptionBridging.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F163B46E1E966A9B7DAC34406367EBF4 /* Pods-MMTToolForXCGLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTToolForXCGLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3904F4700D1CB1D0D8D3FFDD26034A6 /* Pods-MMTToolForXCGLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTToolForXCGLog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4B52680F799726F37813CA75C9ADC3C /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
 		F62D35CD13C307497F59AFF496018870 /* MMTToolForXCGLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForXCGLog-dummy.m"; sourceTree = "<group>"; };
-		FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMTToolForXCGLog; path = MMTToolForXCGLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTToolForXCGLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,7 +221,6 @@
 				4267C0DD926E56323C5D52C5881BD9AF /* ObjcExceptionBridging */,
 				ADCDAD0D8A35C24D15BABC6928484FC4 /* Support Files */,
 			);
-			name = ObjcExceptionBridging;
 			path = ObjcExceptionBridging;
 			sourceTree = "<group>";
 		};
@@ -270,18 +269,17 @@
 			children = (
 				B6551562FC9B20010E171BF168B49B5A /* UserInfoHelpers.swift */,
 			);
-			name = Optional;
 			path = Optional;
 			sourceTree = "<group>";
 		};
 		8397730594BFC717964711DC6CAA5D3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog */,
-				1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging */,
-				EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging-ObjcExceptionBridging */,
-				6BFE9869ECD6A299C355E9FE7913A731 /* Pods-MMTToolForXCGLog_Example */,
-				4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods-MMTToolForXCGLog_Tests */,
+				FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog.framework */,
+				1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */,
+				EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */,
+				6BFE9869ECD6A299C355E9FE7913A731 /* Pods_MMTToolForXCGLog_Example.framework */,
+				4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods_MMTToolForXCGLog_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -516,7 +514,7 @@
 			);
 			name = "Pods-MMTToolForXCGLog_Example";
 			productName = Pods_MMTToolForXCGLog_Example;
-			productReference = 6BFE9869ECD6A299C355E9FE7913A731 /* Pods-MMTToolForXCGLog_Example */;
+			productReference = 6BFE9869ECD6A299C355E9FE7913A731 /* Pods_MMTToolForXCGLog_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */ = {
@@ -535,7 +533,7 @@
 			);
 			name = ObjcExceptionBridging;
 			productName = ObjcExceptionBridging;
-			productReference = 1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging */;
+			productReference = 1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE116EE7886EAE96D12F2D0CAEB298D0 /* ObjcExceptionBridging-ObjcExceptionBridging */ = {
@@ -552,7 +550,7 @@
 			);
 			name = "ObjcExceptionBridging-ObjcExceptionBridging";
 			productName = ObjcExceptionBridging;
-			productReference = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging-ObjcExceptionBridging */;
+			productReference = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		F963E92DC99D6BADE383B85E5B48E4F7 /* MMTToolForXCGLog */ = {
@@ -571,7 +569,7 @@
 			);
 			name = MMTToolForXCGLog;
 			productName = MMTToolForXCGLog;
-			productReference = FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog */;
+			productReference = FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF130E1A1AEDAD27D62F237F88FB8759 /* Pods-MMTToolForXCGLog_Tests */ = {
@@ -590,7 +588,7 @@
 			);
 			name = "Pods-MMTToolForXCGLog_Tests";
 			productName = Pods_MMTToolForXCGLog_Tests;
-			productReference = 4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods-MMTToolForXCGLog_Tests */;
+			productReference = 4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods_MMTToolForXCGLog_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -611,8 +609,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 8397730594BFC717964711DC6CAA5D3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -631,7 +627,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging-ObjcExceptionBridging in Resources */,
+				FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1014,8 +1010,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
