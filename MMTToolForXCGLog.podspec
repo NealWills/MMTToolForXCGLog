@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForXCGLog'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'XCG Log Extension Tool'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,7 @@ A custom tool extension for XCGLogger that provides additional logging functiona
 
   s.source_files = 'MMTToolForXCGLog/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MMTToolForXCGLog' => ['MMTToolForXCGLog/Assets/*.png']
-  # }
+  s.resources = 'MMTToolForXCGLog/PrivacyInfo.xcprivacy'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
