@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForXCGLog'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'XCG Log Extension Tool'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A custom tool extension for XCGLogger that provides additional logging functionality and features to enhance your logging experience in Swift applications.
                        DESC
 
-  s.homepage         = 'git@github.com:NealWills/MMTToolForXCGLog'
+  s.homepage         = 'https://github.com/NealWills/MMTToolForXCGLog.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Donghn' => 'Donghn@maxeye.com' }
-  s.source           = { :git => 'git@github.com:NealWills/MMTToolForXCGLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NealWills/MMTToolForXCGLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
