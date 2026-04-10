@@ -7,173 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		166DDF2487187897AA58F777776856C5 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A70A0DF8B681D717076AC174FFD260 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A52427EF48D1D1C39D0DB6C5DB4F12 /* AppleSystemLogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A4E9ED4E624B769D4E792053C5DEB /* AppleSystemLogDestination.swift */; };
-		266C2F38C59FD42E9CF6A60C04A8F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		31A0453DDD3BEE4751C66A331B649B07 /* XcodeColorsLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2D197B0E00098C7DD88927997E5F8 /* XcodeColorsLogFormatter.swift */; };
-		33FC413F60E6FC9A5B548C449FF1E9EE /* DestinationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92D87FE3B69F035A1CC11EE52138562 /* DestinationProtocol.swift */; };
-		34AE8BD3F5B591ABA72A8A405091802A /* UserInfoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78FCEBA0A7D431C3D45B5DE02E850A /* UserInfoFilter.swift */; };
+		0336385B9A80D40075599809885B1E44 /* ObjcExceptionBridging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DB7E6207B7E6F0CDEA5B162890E93A /* ObjcExceptionBridging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE80773D9E794689C4116BA3F2A7A5D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA2112FC614E30835468925D2BFA8 /* PrivacyInfo.xcprivacy */; };
+		1558F669BC0E737ABB2BF6A0DD879F6E /* ObjcExceptionBridging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2808C0AA60AF7262C29801E8B8E192CF /* ObjcExceptionBridging-dummy.m */; };
+		22E78E1778CFBAA5F13E4ACEDD801055 /* LogFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A0F87A360BB42907B4639376EA474 /* LogFormatterProtocol.swift */; };
+		259175A84904299743876749548FCB1A /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924E461D6D5A7A2522235F0F62DF7570 /* XCGLogger.swift */; };
+		2BBC63293C93A3163F0BCD11CAAA07A4 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BC58738934BED48FB41656C392E18 /* ConsoleDestination.swift */; };
+		2BFCEF71B6ECCFBA1E5C678CA89FDF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		36F317FD48E473DF2F374F65A54008F6 /* Pods-MMTToolForXCGLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F8C8AA3672784703325AE3D44E91BC /* Pods-MMTToolForXCGLog_Tests-dummy.m */; };
-		3C6F09BC07AE747C624E80C86C13DCED /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2972D7332BC8510A9605135E01A3A96B /* FilterProtocol.swift */; };
-		3DDAEA432354073F57A16EB950685342 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D2BFA2112FC614E30835468925D2BFA8 /* PrivacyInfo.xcprivacy */; };
-		409003C445A0CBE8484BBE7D7A476A93 /* PrePostFixLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9703A516E1BD5930BB70010E1025FA1E /* PrePostFixLogFormatter.swift */; };
-		427F3732F9DB7FA39A3B3479D06A2B94 /* TagFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D01725303CF6080FBEB651F1FDB010 /* TagFilter.swift */; };
-		553CD28392644CCA3C60DC27800AAE6B /* ANSIColorLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E375F5ECE5A726FAC03BE4702F99A /* ANSIColorLogFormatter.swift */; };
-		5563C205D55C77DA37C84B0D94ED6960 /* LogFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E0C74816A3D914C24B6795CCAA8A0 /* LogFormatterProtocol.swift */; };
+		3992D68C60A18304D004AC071BB2C545 /* DevFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E74E43861C6CBBF760A33E832D0C1 /* DevFilter.swift */; };
+		4F93BFC312D22E14F59BAD1C646BD835 /* URL+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176D114ACD0F00C4CC3EA456C95CA5A /* URL+XCGAdditions.swift */; };
 		63CD97958FED8798AF4B3D7D56F5188F /* Pods-MMTToolForXCGLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3904F4700D1CB1D0D8D3FFDD26034A6 /* Pods-MMTToolForXCGLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6548BC52F2C267FBBE12D3F1233BDC68 /* ObjectiveCMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C363BA32E38A116DA2AB3B5F738A94A /* ObjectiveCMarker.m */; };
-		6606D828CA8707A904A710CD33A9015B /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ABFA5DC2B734A29C588DAF327D8615 /* DispatchQueue+XCGAdditions.swift */; };
-		6F4D98621600BDFC946BCFA7464BC2BF /* DevFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEEF3AF5EFFA5EBC2DE2D009E68E059 /* DevFilter.swift */; };
+		677F2569E392764ADA24897EEDB5B5E6 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A70A0DF8B681D717076AC174FFD260 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F63112D53ACA3AB9F3E03BF8CFF027D /* ObjcExceptionBridging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */; };
+		74A41C6C5A00EFC7C5CFAAB1EB46DACE /* ANSIColorLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F846AFA9E769961EF808C8F122162173 /* ANSIColorLogFormatter.swift */; };
 		755F9E25558A7DC36C8A03BD01CB513B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		78A9D6DED1AA013069DCB92494BCEF17 /* PrivacyInfo.xcprivacy in Sources */ = {isa = PBXBuildFile; fileRef = 276D7829DC51EA3EECEADAF4F1AFDE13 /* PrivacyInfo.xcprivacy */; };
-		79EA6FA9FB7FEB5A6099424EF1FB9FC9 /* ObjcExceptionBridging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DB7E6207B7E6F0CDEA5B162890E93A /* ObjcExceptionBridging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F62348AFE553D74F506F4C468E5A56 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA016F302593F4C096351D05E676B4EF /* BaseDestination.swift */; };
 		899F969765B17FB9574B6C8E325D05CA /* Pods-MMTToolForXCGLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B614F9C05081D883188928A42E34FC /* Pods-MMTToolForXCGLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A3433F435085529C5460E839CB1AD90 /* LogDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17D3418AC817537DFF7D788D34DDF9 /* LogDetails.swift */; };
-		940CF3ED131571B426F2983F018EA7C2 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F824D83F2874655BE806239E7D4D43B /* BaseDestination.swift */; };
+		8DFB092D62A089336E70F099A52B74BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9C548FCB01D8EB197F8B2C0E053DD406 /* Base64LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACBF0558825D0472E11B7815F46F170 /* Base64LogFormatter.swift */; };
+		9EED2706BA2D3CE1B32532CD1DA308BA /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69184EFB53E30427244CE14E23C3C76 /* DispatchQueue+XCGAdditions.swift */; };
+		9F08396795AE3546509F753FF4CA1132 /* AutoRotatingFileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8CB53604548D25886413CEE5689BA /* AutoRotatingFileDestination.swift */; };
+		A068BCE3DB31B45A7E20DFAB927DF9AA /* LogDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60AF0EA806041EBD3A2536FCD3A56AC /* LogDetails.swift */; };
+		A32D9FF3A94DC7F0ADE15DA286916340 /* MMTToolForXCGLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F16089548F35C4F135AF1880C956F346 /* MMTToolForXCGLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A63F9B3218B6D05F342D3BF638B00295 /* Pods-MMTToolForXCGLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF64408759F694BDEB8F61196814338 /* Pods-MMTToolForXCGLog_Example-dummy.m */; };
-		A91295D9BA22262C69021F54716AD14B /* BaseQueuedDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139589FC39D5D6D133FEEBBC17F0E20 /* BaseQueuedDestination.swift */; };
-		AB4801B0F40D025CCE94D5AB7B4777C8 /* URL+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC526D509AE31414E75C3DE9DB42EB4 /* URL+XCGAdditions.swift */; };
-		B078A4998CC5A657830798AA328EA6E3 /* MMTToolForXCGLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F62D35CD13C307497F59AFF496018870 /* MMTToolForXCGLog-dummy.m */; };
-		B4969B68C029FF09F548805EDDC6514E /* AutoRotatingFileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B52680F799726F37813CA75C9ADC3C /* AutoRotatingFileDestination.swift */; };
-		B6B37A6BD659847124CCC64E19820ABB /* Base64LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556A87C94337DBBEB8A7EA5C227D7FD /* Base64LogFormatter.swift */; };
-		C5F78E9B53636491DFE003E199C65F90 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A640D10608543CF63F70F2D16156AD1 /* FileDestination.swift */; };
-		C61BD947DFFA523D2D96A395AAE245D9 /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C30E7FDC208B133045A9D49E749638 /* FileNameFilter.swift */; };
-		D1A0A49838E554ED7FB4B4AB6C9FAF69 /* UserInfoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6551562FC9B20010E171BF168B49B5A /* UserInfoHelpers.swift */; };
-		D2B4C8B1A3BED4514F72C52AEA65F40D /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539D5D5B467D1374027B6398E3A6E33 /* ConsoleDestination.swift */; };
-		D3532DF6DAA0792C3099DAAE3617E5BA /* ObjcExceptionBridging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2808C0AA60AF7262C29801E8B8E192CF /* ObjcExceptionBridging-dummy.m */; };
-		D8DD4319BC7892E557CE39A38A7EF93A /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4BCEC5E6A964AB9C84B93EDDF48FB4 /* HelperFunctions.swift */; };
+		A66BA0F30D5CC4F9AC4FC0095AD0B013 /* ObjectiveCMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C363BA32E38A116DA2AB3B5F738A94A /* ObjectiveCMarker.m */; };
+		A93D357202842BCBCA71A87672ED9F26 /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2703DFB2E716C7F292064C0EF6EA8 /* FileDestination.swift */; };
+		B1A113C233E8CA62F4C81F145C1D2617 /* MMTToolForXCGLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64B3E48968CE6365BDF547B919C4D5 /* MMTToolForXCGLog-dummy.m */; };
+		B98AE578832F69167945B0902EDC1C01 /* BaseQueuedDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4608E2E27DA48DB5F360FD7AA0491 /* BaseQueuedDestination.swift */; };
+		BE868BD70E6B48C2CE84029FAF1D3C27 /* UserInfoFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC3113220896322A87DDD94AA770EA /* UserInfoFilter.swift */; };
+		BFD4D560908AF6876E355F5012C51B8C /* PrePostFixLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765541444C64C467D42DF8C632F7E82F /* PrePostFixLogFormatter.swift */; };
+		C13D922487B5529E67D12AD7F9692247 /* DestinationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E34AF92FDC7B6585BB6373C4E61144E /* DestinationProtocol.swift */; };
+		CC07E6977C0F0D32D80FDA3AD78B5671 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A43A65A3A403ECE6C0F0F2D65E50BF /* FilterProtocol.swift */; };
+		CDFC1DB339B5AD4AC966C30AB6A4CDEE /* UserInfoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98B6A454B1D5B45F0BF0B8822649F8 /* UserInfoHelpers.swift */; };
+		DC2D29EB2D1BBD918BF572743F1068AE /* FileNameFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4397E1B18AE811DCF2AB8E48276D6463 /* FileNameFilter.swift */; };
+		DCD66A5F0B5402E8DDD13F8F316A0361 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AA73FBF0D2B7284A7107BA8F936EE9 /* HelperFunctions.swift */; };
+		DDCD06083C6DE1496FC5A766C2492F22 /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5009AD27431F704CCEF3F5142BA5E6EA /* TestDestination.swift */; };
 		DF50ACD86F85B5540FF7F491C39AEBF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		E4FC55EF7184AA43A79C661DECFF0C76 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AEFBD62AB02395BD2B0E68F780EDA0 /* XCGLogger.swift */; };
-		F04D85152891E3B30E3E70D65817CE3D /* MMTToolForXCGLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932D2B9017D124E8296D04409373F687 /* MMTToolForXCGLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB5141511A22260C790AB9DC5030C1EA /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2F58B79014A4BAC8021935593DFFB /* TestDestination.swift */; };
-		FB9CEFEB6B2EF3E9A45CFAB2779E26F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */; };
+		E3978D19F4F5A3C15D5FBAF3129A2C37 /* TagFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1946115C2A206CB6551756309A783 /* TagFilter.swift */; };
+		E5038FA3E86E1EDC5ACADF3012977BBB /* AppleSystemLogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA157C3854AF5F96AE9093E3945BAD /* AppleSystemLogDestination.swift */; };
+		E92BA202EBD193840F264B63E8982488 /* XcodeColorsLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCACBFAE5151EAE6108FECBC3055F95 /* XcodeColorsLogFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15297F2D537CF34CBB46AFEE00D47A85 /* PBXContainerItemProxy */ = {
+		17C6269F941AE23E9E80C4CA98A435CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746615E9A06AABA6F288B49A10B63E10;
+			remoteInfo = ObjcExceptionBridging;
+		};
+		327B7CCC05A6C4E392470A09B043D154 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EE116EE7886EAE96D12F2D0CAEB298D0;
 			remoteInfo = "ObjcExceptionBridging-ObjcExceptionBridging";
 		};
-		2851F66910260E59FD7EAA37BEE0F99D /* PBXContainerItemProxy */ = {
+		3DF93361264924B23F43F48BBAE1D6B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F963E92DC99D6BADE383B85E5B48E4F7;
 			remoteInfo = MMTToolForXCGLog;
 		};
-		56B22035FBF908C997E88EDD9BFA70E1 /* PBXContainerItemProxy */ = {
+		4CDA3B2F7C754E56876D46511C3F25E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746615E9A06AABA6F288B49A10B63E10;
+			remoteInfo = ObjcExceptionBridging;
+		};
+		671ADD22789CD17D59C109800D7FABA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2218EEF27380036CB6BA8708884A71F8;
 			remoteInfo = "Pods-MMTToolForXCGLog_Example";
 		};
-		5F30AB4E8137264448390B6980E57E99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 746615E9A06AABA6F288B49A10B63E10;
-			remoteInfo = ObjcExceptionBridging;
-		};
-		6F192824D0468F7417CB1FBC68CD53CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 746615E9A06AABA6F288B49A10B63E10;
-			remoteInfo = ObjcExceptionBridging;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		038CEF73F57F08725D80003BC17445B6 /* ObjcExceptionBridging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-prefix.pch"; sourceTree = "<group>"; };
-		0D66C9836485A307ADC41AE52DACD9CC /* MMTToolForXCGLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.release.xcconfig; sourceTree = "<group>"; };
-		1328D394E63D604AA7D1CFE3C6C5BCC8 /* MMTToolForXCGLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.debug.xcconfig; sourceTree = "<group>"; };
+		0B9BC58738934BED48FB41656C392E18 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		0BA4608E2E27DA48DB5F360FD7AA0491 /* BaseQueuedDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseQueuedDestination.swift; sourceTree = "<group>"; };
+		0FAC3113220896322A87DDD94AA770EA /* UserInfoFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfoFilter.swift; sourceTree = "<group>"; };
 		1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E4BCEC5E6A964AB9C84B93EDDF48FB4 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
-		26D01725303CF6080FBEB651F1FDB010 /* TagFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagFilter.swift; sourceTree = "<group>"; };
-		276D7829DC51EA3EECEADAF4F1AFDE13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = MMTToolForXCGLog/Classes/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2808C0AA60AF7262C29801E8B8E192CF /* ObjcExceptionBridging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcExceptionBridging-dummy.m"; sourceTree = "<group>"; };
-		2972D7332BC8510A9605135E01A3A96B /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
-		3167A2FB36CC6C16B80D1ECA25584BA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35BA157C3854AF5F96AE9093E3945BAD /* AppleSystemLogDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleSystemLogDestination.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		393FC1F662C212D2FBAAAFB45FAD8A83 /* Pods-MMTToolForXCGLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTToolForXCGLog_Tests.modulemap"; sourceTree = "<group>"; };
 		3C363BA32E38A116DA2AB3B5F738A94A /* ObjectiveCMarker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ObjectiveCMarker.m; path = Sources/ObjcExceptionBridging/ObjectiveCMarker.m; sourceTree = "<group>"; };
-		3DC526D509AE31414E75C3DE9DB42EB4 /* URL+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+XCGAdditions.swift"; sourceTree = "<group>"; };
+		3D98B6A454B1D5B45F0BF0B8822649F8 /* UserInfoHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfoHelpers.swift; sourceTree = "<group>"; };
 		40F8C8AA3672784703325AE3D44E91BC /* Pods-MMTToolForXCGLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTToolForXCGLog_Tests-dummy.m"; sourceTree = "<group>"; };
-		45C30E7FDC208B133045A9D49E749638 /* FileNameFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileNameFilter.swift; sourceTree = "<group>"; };
-		461E375F5ECE5A726FAC03BE4702F99A /* ANSIColorLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANSIColorLogFormatter.swift; sourceTree = "<group>"; };
+		4397E1B18AE811DCF2AB8E48276D6463 /* FileNameFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileNameFilter.swift; sourceTree = "<group>"; };
 		4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods_MMTToolForXCGLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForXCGLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CAFD04C9C6D422B9CD09E354A272260 /* MMTToolForXCGLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-prefix.pch"; sourceTree = "<group>"; };
+		4B3A0F87A360BB42907B4639376EA474 /* LogFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogFormatterProtocol.swift; sourceTree = "<group>"; };
+		4ED769B94FE2D8DEBF538D3DA8F9F137 /* MMTToolForXCGLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForXCGLog.modulemap; sourceTree = "<group>"; };
 		4F6F661D0D331113CC4BA79BAFD389C4 /* Pods-MMTToolForXCGLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Example-Info.plist"; sourceTree = "<group>"; };
+		5009AD27431F704CCEF3F5142BA5E6EA /* TestDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestDestination.swift; sourceTree = "<group>"; };
 		513AE547ECE0338DF97B1B4752EAC418 /* ObjcExceptionBridging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjcExceptionBridging.modulemap; sourceTree = "<group>"; };
 		53AE0FF77F1958B0A6D138D406A00EDF /* ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist"; sourceTree = "<group>"; };
-		619A4E9ED4E624B769D4E792053C5DEB /* AppleSystemLogDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppleSystemLogDestination.swift; sourceTree = "<group>"; };
+		6176D114ACD0F00C4CC3EA456C95CA5A /* URL+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+XCGAdditions.swift"; sourceTree = "<group>"; };
 		642128601FABB12BC47D3413C5D76216 /* Pods-MMTToolForXCGLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTToolForXCGLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		643A4A7CCA744FD0FAA1306DF82EA1EA /* MMTToolForXCGLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-prefix.pch"; sourceTree = "<group>"; };
 		64A70A0DF8B681D717076AC174FFD260 /* ObjcExceptionBridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcExceptionBridging.h; path = Sources/ObjcExceptionBridging/include/ObjcExceptionBridging.h; sourceTree = "<group>"; };
-		6556A87C94337DBBEB8A7EA5C227D7FD /* Base64LogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Base64LogFormatter.swift; sourceTree = "<group>"; };
-		66AEFBD62AB02395BD2B0E68F780EDA0 /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = MMTToolForXCGLog/Classes/XCGLogger.swift; sourceTree = "<group>"; };
-		6A640D10608543CF63F70F2D16156AD1 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
+		6BCACBFAE5151EAE6108FECBC3055F95 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
 		6BFE9869ECD6A299C355E9FE7913A731 /* Pods_MMTToolForXCGLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForXCGLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDDE54DB71BF223D64BD9E857E1BC4D /* ObjcExceptionBridging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjcExceptionBridging-Info.plist"; sourceTree = "<group>"; };
-		6FD2D197B0E00098C7DD88927997E5F8 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
+		765541444C64C467D42DF8C632F7E82F /* PrePostFixLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrePostFixLogFormatter.swift; sourceTree = "<group>"; };
 		76A0B0264835DD4E4A953C1E57B97211 /* Pods-MMTToolForXCGLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7986A1673CC06A2BA792BAF2E9F13D75 /* Pods-MMTToolForXCGLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Example.release.xcconfig"; sourceTree = "<group>"; };
 		79B69756E90D3788B9E75A8D949B7F1E /* ObjcExceptionBridging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcExceptionBridging.debug.xcconfig; sourceTree = "<group>"; };
-		7F824D83F2874655BE806239E7D4D43B /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
-		80ABFA5DC2B734A29C588DAF327D8615 /* DispatchQueue+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+XCGAdditions.swift"; sourceTree = "<group>"; };
+		7E34AF92FDC7B6585BB6373C4E61144E /* DestinationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinationProtocol.swift; sourceTree = "<group>"; };
+		874DD1903EF4E2E4A5C2D7DD65FF0F8A /* MMTToolForXCGLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForXCGLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		8DF64408759F694BDEB8F61196814338 /* Pods-MMTToolForXCGLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMTToolForXCGLog_Example-dummy.m"; sourceTree = "<group>"; };
-		8E78FCEBA0A7D431C3D45B5DE02E850A /* UserInfoFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfoFilter.swift; sourceTree = "<group>"; };
 		8EAA64D5BF6DCEA2F4CE8734D85A7E1A /* Pods-MMTToolForXCGLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FA2703DFB2E716C7F292064C0EF6EA8 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
 		9225ECCDCB08322B42DCB577B575FBE0 /* Pods-MMTToolForXCGLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Tests-Info.plist"; sourceTree = "<group>"; };
+		924E461D6D5A7A2522235F0F62DF7570 /* XCGLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCGLogger.swift; path = MMTToolForXCGLog/Classes/XCGLogger.swift; sourceTree = "<group>"; };
 		92C20FAF2AD629CE045374A7C53CEC48 /* Pods-MMTToolForXCGLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTToolForXCGLog_Example.modulemap"; sourceTree = "<group>"; };
-		932D2B9017D124E8296D04409373F687 /* MMTToolForXCGLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-umbrella.h"; sourceTree = "<group>"; };
-		964F55A2989395A45E5512EE62623156 /* MMTToolForXCGLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForXCGLog-Info.plist"; sourceTree = "<group>"; };
-		9703A516E1BD5930BB70010E1025FA1E /* PrePostFixLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrePostFixLogFormatter.swift; sourceTree = "<group>"; };
+		93A43A65A3A403ECE6C0F0F2D65E50BF /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABF3AE3DC6FB62DC9B29CB3D4C98F2F9 /* MMTToolForXCGLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForXCGLog.modulemap; sourceTree = "<group>"; };
-		AC5E0C74816A3D914C24B6795CCAA8A0 /* LogFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogFormatterProtocol.swift; sourceTree = "<group>"; };
+		A365B6D5B621871B8238BCF613F0DAAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A69184EFB53E30427244CE14E23C3C76 /* DispatchQueue+XCGAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+XCGAdditions.swift"; sourceTree = "<group>"; };
 		ADCDFA28B438D24AAB3ECBAEFDE7EAFE /* Pods-MMTToolForXCGLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForXCGLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AEE33FD6C45659691E50A342EAED5575 /* Pods-MMTToolForXCGLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTToolForXCGLog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B6551562FC9B20010E171BF168B49B5A /* UserInfoHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserInfoHelpers.swift; sourceTree = "<group>"; };
-		C0E2F58B79014A4BAC8021935593DFFB /* TestDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestDestination.swift; sourceTree = "<group>"; };
-		C23B1FD54712D3781EC2394B1744D5E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B2E1946115C2A206CB6551756309A783 /* TagFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagFilter.swift; sourceTree = "<group>"; };
+		B925A35AD78AA115E736C40709089A60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BACBF0558825D0472E11B7815F46F170 /* Base64LogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Base64LogFormatter.swift; sourceTree = "<group>"; };
+		BE2EA58F7A065CD36C44A01122F0033D /* MMTToolForXCGLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.release.xcconfig; sourceTree = "<group>"; };
 		C3FD3B300A5663F77E16F3D28F6A169E /* Pods-MMTToolForXCGLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcExceptionBridging.release.xcconfig; sourceTree = "<group>"; };
-		CD17D3418AC817537DFF7D788D34DDF9 /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogDetails.swift; sourceTree = "<group>"; };
 		CD1F4F11DF6A1BCD444A13CF19AEFC31 /* Pods-MMTToolForXCGLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForXCGLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD64B3E48968CE6365BDF547B919C4D5 /* MMTToolForXCGLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForXCGLog-dummy.m"; sourceTree = "<group>"; };
+		CDBD014DAA27F1494CE1B01E2527DEA1 /* MMTToolForXCGLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMTToolForXCGLog.debug.xcconfig; sourceTree = "<group>"; };
 		D2B614F9C05081D883188928A42E34FC /* Pods-MMTToolForXCGLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTToolForXCGLog_Example-umbrella.h"; sourceTree = "<group>"; };
 		D2BFA2112FC614E30835468925D2BFA8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/ObjcExceptionBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		D6D07A15BDE57EAF5DC4F8D91384BDE8 /* MMTToolForXCGLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForXCGLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		E139589FC39D5D6D133FEEBBC17F0E20 /* BaseQueuedDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseQueuedDestination.swift; sourceTree = "<group>"; };
-		E539D5D5B467D1374027B6398E3A6E33 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		DA016F302593F4C096351D05E676B4EF /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
+		E1AA73FBF0D2B7284A7107BA8F936EE9 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		E60AF0EA806041EBD3A2536FCD3A56AC /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogDetails.swift; sourceTree = "<group>"; };
 		E8DB7E6207B7E6F0CDEA5B162890E93A /* ObjcExceptionBridging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-umbrella.h"; sourceTree = "<group>"; };
-		E92D87FE3B69F035A1CC11EE52138562 /* DestinationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinationProtocol.swift; sourceTree = "<group>"; };
-		ECEEF3AF5EFFA5EBC2DE2D009E68E059 /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevFilter.swift; sourceTree = "<group>"; };
+		ECD8CB53604548D25886413CEE5689BA /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
+		EF1E74E43861C6CBBF760A33E832D0C1 /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevFilter.swift; sourceTree = "<group>"; };
 		EF7CAA240FEB94F29DBE3D91C8BDE565 /* ObjcExceptionBridging.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcExceptionBridging.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08E06AA1DAD460DCB897FF6E13A6931 /* MMTToolForXCGLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForXCGLog-Info.plist"; sourceTree = "<group>"; };
+		F16089548F35C4F135AF1880C956F346 /* MMTToolForXCGLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForXCGLog-umbrella.h"; sourceTree = "<group>"; };
 		F163B46E1E966A9B7DAC34406367EBF4 /* Pods-MMTToolForXCGLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMTToolForXCGLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3904F4700D1CB1D0D8D3FFDD26034A6 /* Pods-MMTToolForXCGLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMTToolForXCGLog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F4B52680F799726F37813CA75C9ADC3C /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
-		F62D35CD13C307497F59AFF496018870 /* MMTToolForXCGLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForXCGLog-dummy.m"; sourceTree = "<group>"; };
+		F846AFA9E769961EF808C8F122162173 /* ANSIColorLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ANSIColorLogFormatter.swift; sourceTree = "<group>"; };
 		FBDCC96755CDED8DD8CCF7D8FFC2FB06 /* MMTToolForXCGLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTToolForXCGLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03C67AB1DC6951A5132FFD91FD70070B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFCEF71B6ECCFBA1E5C678CA89FDF64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F224BAEC758DE2B0358863D0D509BD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF50ACD86F85B5540FF7F491C39AEBF1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		428705E22E24AFE7C3B758C7D9A38B2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,34 +184,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72AD88E636340EA6594317F3073C0AD2 /* Frameworks */ = {
+		E2478312B8AEE2D4E91F3A7B5E0E55D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9CEFEB6B2EF3E9A45CFAB2779E26F9 /* Foundation.framework in Frameworks */,
+				8DFB092D62A089336E70F099A52B74BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D11D9CFEA840F8911436962B9E5711C /* Frameworks */ = {
+		F883E6898EEF94470AB9B27508364B5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266C2F38C59FD42E9CF6A60C04A8F15D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		064B629E50529E854785EBF7C7EB1878 /* Misc */ = {
+		08CBF7250EF6A6E4C50BA9AED01E1072 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E4BCEC5E6A964AB9C84B93EDDF48FB4 /* HelperFunctions.swift */,
-				CD17D3418AC817537DFF7D788D34DDF9 /* LogDetails.swift */,
-				7F2C7257345D48EA0CA870120A872E25 /* Optional */,
+				89440AA80A6BDB631281C81EB79EF96F /* MMTToolForXCGLog */,
 			);
-			name = Misc;
-			path = MMTToolForXCGLog/Classes/Misc;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		117966C251E18C40F3CD326C390A7A15 /* ObjcExceptionBridging */ = {
@@ -222,6 +217,37 @@
 				ADCDAD0D8A35C24D15BABC6928484FC4 /* Support Files */,
 			);
 			path = ObjcExceptionBridging;
+			sourceTree = "<group>";
+		};
+		22FA79A3E0A66E8A5CAAEC562D068B81 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				3D98B6A454B1D5B45F0BF0B8822649F8 /* UserInfoHelpers.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		2E9A327FB819FDEA7E5EC5C5C84DE308 /* LogFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				F846AFA9E769961EF808C8F122162173 /* ANSIColorLogFormatter.swift */,
+				BACBF0558825D0472E11B7815F46F170 /* Base64LogFormatter.swift */,
+				4B3A0F87A360BB42907B4639376EA474 /* LogFormatterProtocol.swift */,
+				765541444C64C467D42DF8C632F7E82F /* PrePostFixLogFormatter.swift */,
+				6BCACBFAE5151EAE6108FECBC3055F95 /* XcodeColorsLogFormatter.swift */,
+			);
+			name = LogFormatters;
+			path = MMTToolForXCGLog/Classes/LogFormatters;
+			sourceTree = "<group>";
+		};
+		3917CC8512B1C92563ACE57325C7D03F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A365B6D5B621871B8238BCF613F0DAAF /* LICENSE */,
+				874DD1903EF4E2E4A5C2D7DD65FF0F8A /* MMTToolForXCGLog.podspec */,
+				B925A35AD78AA115E736C40709089A60 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3C9E59636C37AE76B5BF354FBC3FAADE /* Pods */ = {
@@ -242,6 +268,17 @@
 			name = ObjcExceptionBridging;
 			sourceTree = "<group>";
 		};
+		5EC45B8D1FB0F1D80C3B91ACE6394DB8 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E1AA73FBF0D2B7284A7107BA8F936EE9 /* HelperFunctions.swift */,
+				E60AF0EA806041EBD3A2536FCD3A56AC /* LogDetails.swift */,
+				22FA79A3E0A66E8A5CAAEC562D068B81 /* Optional */,
+			);
+			name = Misc;
+			path = MMTToolForXCGLog/Classes/Misc;
+			sourceTree = "<group>";
+		};
 		6832DAF555B361BFFDFC4F28EC3F9F7C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,25 +288,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		75416773EA4702CA14E7D4715D63BBA2 /* Filters */ = {
+		7B8CBA746929368E1BF316C11F69671C /* Destinations */ = {
 			isa = PBXGroup;
 			children = (
-				ECEEF3AF5EFFA5EBC2DE2D009E68E059 /* DevFilter.swift */,
-				45C30E7FDC208B133045A9D49E749638 /* FileNameFilter.swift */,
-				2972D7332BC8510A9605135E01A3A96B /* FilterProtocol.swift */,
-				26D01725303CF6080FBEB651F1FDB010 /* TagFilter.swift */,
-				8E78FCEBA0A7D431C3D45B5DE02E850A /* UserInfoFilter.swift */,
+				35BA157C3854AF5F96AE9093E3945BAD /* AppleSystemLogDestination.swift */,
+				ECD8CB53604548D25886413CEE5689BA /* AutoRotatingFileDestination.swift */,
+				DA016F302593F4C096351D05E676B4EF /* BaseDestination.swift */,
+				0BA4608E2E27DA48DB5F360FD7AA0491 /* BaseQueuedDestination.swift */,
+				0B9BC58738934BED48FB41656C392E18 /* ConsoleDestination.swift */,
+				7E34AF92FDC7B6585BB6373C4E61144E /* DestinationProtocol.swift */,
+				8FA2703DFB2E716C7F292064C0EF6EA8 /* FileDestination.swift */,
+				5009AD27431F704CCEF3F5142BA5E6EA /* TestDestination.swift */,
 			);
-			name = Filters;
-			path = MMTToolForXCGLog/Classes/Filters;
-			sourceTree = "<group>";
-		};
-		7F2C7257345D48EA0CA870120A872E25 /* Optional */ = {
-			isa = PBXGroup;
-			children = (
-				B6551562FC9B20010E171BF168B49B5A /* UserInfoHelpers.swift */,
-			);
-			path = Optional;
+			name = Destinations;
+			path = MMTToolForXCGLog/Classes/Destinations;
 			sourceTree = "<group>";
 		};
 		8397730594BFC717964711DC6CAA5D3D /* Products */ = {
@@ -282,6 +314,50 @@
 				4ADC354DC4DA6C3AAF8F7EBE71C2901F /* Pods_MMTToolForXCGLog_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		89440AA80A6BDB631281C81EB79EF96F /* MMTToolForXCGLog */ = {
+			isa = PBXGroup;
+			children = (
+				924E461D6D5A7A2522235F0F62DF7570 /* XCGLogger.swift */,
+				7B8CBA746929368E1BF316C11F69671C /* Destinations */,
+				C8682392D79DDA93DDAC02F5C75D7745 /* Extensions */,
+				97FC9FEA64F6B997BC45089381041AE7 /* Filters */,
+				2E9A327FB819FDEA7E5EC5C5C84DE308 /* LogFormatters */,
+				5EC45B8D1FB0F1D80C3B91ACE6394DB8 /* Misc */,
+				3917CC8512B1C92563ACE57325C7D03F /* Pod */,
+				A3BB7195A5CF51A48AE74A31E11939AE /* Support Files */,
+			);
+			name = MMTToolForXCGLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97FC9FEA64F6B997BC45089381041AE7 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				EF1E74E43861C6CBBF760A33E832D0C1 /* DevFilter.swift */,
+				4397E1B18AE811DCF2AB8E48276D6463 /* FileNameFilter.swift */,
+				93A43A65A3A403ECE6C0F0F2D65E50BF /* FilterProtocol.swift */,
+				B2E1946115C2A206CB6551756309A783 /* TagFilter.swift */,
+				0FAC3113220896322A87DDD94AA770EA /* UserInfoFilter.swift */,
+			);
+			name = Filters;
+			path = MMTToolForXCGLog/Classes/Filters;
+			sourceTree = "<group>";
+		};
+		A3BB7195A5CF51A48AE74A31E11939AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ED769B94FE2D8DEBF538D3DA8F9F137 /* MMTToolForXCGLog.modulemap */,
+				CD64B3E48968CE6365BDF547B919C4D5 /* MMTToolForXCGLog-dummy.m */,
+				F08E06AA1DAD460DCB897FF6E13A6931 /* MMTToolForXCGLog-Info.plist */,
+				643A4A7CCA744FD0FAA1306DF82EA1EA /* MMTToolForXCGLog-prefix.pch */,
+				F16089548F35C4F135AF1880C956F346 /* MMTToolForXCGLog-umbrella.h */,
+				CDBD014DAA27F1494CE1B01E2527DEA1 /* MMTToolForXCGLog.debug.xcconfig */,
+				BE2EA58F7A065CD36C44A01122F0033D /* MMTToolForXCGLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMTToolForXCGLog";
 			sourceTree = "<group>";
 		};
 		AD5DA734556D9EDC2D50457B37DB4FE2 /* Pods-MMTToolForXCGLog_Example */ = {
@@ -317,76 +393,26 @@
 			path = "../Target Support Files/ObjcExceptionBridging";
 			sourceTree = "<group>";
 		};
-		BA23092E6F019CA3CB4A90EBEE12872A /* Extensions */ = {
+		C8682392D79DDA93DDAC02F5C75D7745 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				80ABFA5DC2B734A29C588DAF327D8615 /* DispatchQueue+XCGAdditions.swift */,
-				3DC526D509AE31414E75C3DE9DB42EB4 /* URL+XCGAdditions.swift */,
+				A69184EFB53E30427244CE14E23C3C76 /* DispatchQueue+XCGAdditions.swift */,
+				6176D114ACD0F00C4CC3EA456C95CA5A /* URL+XCGAdditions.swift */,
 			);
 			name = Extensions;
 			path = MMTToolForXCGLog/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		BD415477BC48E2CDD11946EE1132E094 /* MMTToolForXCGLog */ = {
-			isa = PBXGroup;
-			children = (
-				276D7829DC51EA3EECEADAF4F1AFDE13 /* PrivacyInfo.xcprivacy */,
-				66AEFBD62AB02395BD2B0E68F780EDA0 /* XCGLogger.swift */,
-				D9250698CE18AFDA60159FA9CB61235F /* Destinations */,
-				BA23092E6F019CA3CB4A90EBEE12872A /* Extensions */,
-				75416773EA4702CA14E7D4715D63BBA2 /* Filters */,
-				EA76612E6B902669C4E48D28E6CA257D /* LogFormatters */,
-				064B629E50529E854785EBF7C7EB1878 /* Misc */,
-				C2F5CD4A8FA2BC1B830647C0DCE6139E /* Pod */,
-				D19F57F347F90D338EE2D82B5861129E /* Support Files */,
-			);
-			name = MMTToolForXCGLog;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C1872AE8DED11CA76806E727FDC7829D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD415477BC48E2CDD11946EE1132E094 /* MMTToolForXCGLog */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C2F5CD4A8FA2BC1B830647C0DCE6139E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C23B1FD54712D3781EC2394B1744D5E2 /* LICENSE */,
-				D6D07A15BDE57EAF5DC4F8D91384BDE8 /* MMTToolForXCGLog.podspec */,
-				3167A2FB36CC6C16B80D1ECA25584BA0 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C1872AE8DED11CA76806E727FDC7829D /* Development Pods */,
+				08CBF7250EF6A6E4C50BA9AED01E1072 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3C9E59636C37AE76B5BF354FBC3FAADE /* Pods */,
 				8397730594BFC717964711DC6CAA5D3D /* Products */,
 				6832DAF555B361BFFDFC4F28EC3F9F7C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D19F57F347F90D338EE2D82B5861129E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABF3AE3DC6FB62DC9B29CB3D4C98F2F9 /* MMTToolForXCGLog.modulemap */,
-				F62D35CD13C307497F59AFF496018870 /* MMTToolForXCGLog-dummy.m */,
-				964F55A2989395A45E5512EE62623156 /* MMTToolForXCGLog-Info.plist */,
-				4CAFD04C9C6D422B9CD09E354A272260 /* MMTToolForXCGLog-prefix.pch */,
-				932D2B9017D124E8296D04409373F687 /* MMTToolForXCGLog-umbrella.h */,
-				1328D394E63D604AA7D1CFE3C6C5BCC8 /* MMTToolForXCGLog.debug.xcconfig */,
-				0D66C9836485A307ADC41AE52DACD9CC /* MMTToolForXCGLog.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MMTToolForXCGLog";
 			sourceTree = "<group>";
 		};
 		D1CBFD5393A2EC56BEACEE8BB29C5719 /* Pods-MMTToolForXCGLog_Tests */ = {
@@ -413,22 +439,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9250698CE18AFDA60159FA9CB61235F /* Destinations */ = {
-			isa = PBXGroup;
-			children = (
-				619A4E9ED4E624B769D4E792053C5DEB /* AppleSystemLogDestination.swift */,
-				F4B52680F799726F37813CA75C9ADC3C /* AutoRotatingFileDestination.swift */,
-				7F824D83F2874655BE806239E7D4D43B /* BaseDestination.swift */,
-				E139589FC39D5D6D133FEEBBC17F0E20 /* BaseQueuedDestination.swift */,
-				E539D5D5B467D1374027B6398E3A6E33 /* ConsoleDestination.swift */,
-				E92D87FE3B69F035A1CC11EE52138562 /* DestinationProtocol.swift */,
-				6A640D10608543CF63F70F2D16156AD1 /* FileDestination.swift */,
-				C0E2F58B79014A4BAC8021935593DFFB /* TestDestination.swift */,
-			);
-			name = Destinations;
-			path = MMTToolForXCGLog/Classes/Destinations;
-			sourceTree = "<group>";
-		};
 		E3FF7EBA41B0ABC577A1AB384AAD216D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -445,22 +455,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA76612E6B902669C4E48D28E6CA257D /* LogFormatters */ = {
-			isa = PBXGroup;
-			children = (
-				461E375F5ECE5A726FAC03BE4702F99A /* ANSIColorLogFormatter.swift */,
-				6556A87C94337DBBEB8A7EA5C227D7FD /* Base64LogFormatter.swift */,
-				AC5E0C74816A3D914C24B6795CCAA8A0 /* LogFormatterProtocol.swift */,
-				9703A516E1BD5930BB70010E1025FA1E /* PrePostFixLogFormatter.swift */,
-				6FD2D197B0E00098C7DD88927997E5F8 /* XcodeColorsLogFormatter.swift */,
-			);
-			name = LogFormatters;
-			path = MMTToolForXCGLog/Classes/LogFormatters;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0EE4591EC1CAF73B8AEA3A46F7ED790B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677F2569E392764ADA24897EEDB5B5E6 /* ObjcExceptionBridging.h in Headers */,
+				0336385B9A80D40075599809885B1E44 /* ObjcExceptionBridging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7264912A17326AF00DAC6A614155D9BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,20 +475,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE7644F9864BB70B10B3CCB881ED30EC /* Headers */ = {
+		8EB02EB1E28A7493F0526C376984AB95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166DDF2487187897AA58F777776856C5 /* ObjcExceptionBridging.h in Headers */,
-				79EA6FA9FB7FEB5A6099424EF1FB9FC9 /* ObjcExceptionBridging-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B82165C4EB6A61D8AECFBFB7D56647F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F04D85152891E3B30E3E70D65817CE3D /* MMTToolForXCGLog-umbrella.h in Headers */,
+				A32D9FF3A94DC7F0ADE15DA286916340 /* MMTToolForXCGLog-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,8 +506,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4548DB59AB12144B0E6A4743B4DAAE0F /* PBXTargetDependency */,
-				99E7A0022AAEF5DA7BDD95E006C13C13 /* PBXTargetDependency */,
+				60D98DAFA12C8979025D61999BD91EBE /* PBXTargetDependency */,
+				9EBD83A3403411412787EC84FE6CF176 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTToolForXCGLog_Example";
 			productName = Pods_MMTToolForXCGLog_Example;
@@ -519,17 +516,17 @@
 		};
 		746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5FA9F0EFBE3FB71CC76B2A57B60AEAD /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */;
+			buildConfigurationList = D5652E6592663F8C6E26CE4D5DC64DC5 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */;
 			buildPhases = (
-				AE7644F9864BB70B10B3CCB881ED30EC /* Headers */,
-				4462D795A2696AB253D51DEDFDF92CD7 /* Sources */,
-				8D11D9CFEA840F8911436962B9E5711C /* Frameworks */,
-				1D7E07BD5EAC38772934A106A54B1D94 /* Resources */,
+				0EE4591EC1CAF73B8AEA3A46F7ED790B /* Headers */,
+				FFECA531398EDE252332FBAF510A2F3A /* Sources */,
+				03C67AB1DC6951A5132FFD91FD70070B /* Frameworks */,
+				16B14C9D5F8134972825E21CB5D0D5E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8784840E77B961DD8F247CBB87332C1E /* PBXTargetDependency */,
+				A39052FD7B3BA7437B73682C61ABEF27 /* PBXTargetDependency */,
 			);
 			name = ObjcExceptionBridging;
 			productName = ObjcExceptionBridging;
@@ -538,11 +535,11 @@
 		};
 		EE116EE7886EAE96D12F2D0CAEB298D0 /* ObjcExceptionBridging-ObjcExceptionBridging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEB502710C14EE89A9F2E4758F1DEEE6 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging-ObjcExceptionBridging" */;
+			buildConfigurationList = F2EDCC02073A9AF2DB996B1F6E8876CB /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging-ObjcExceptionBridging" */;
 			buildPhases = (
-				E0EC70607BBCC8612294E567160F9402 /* Sources */,
-				428705E22E24AFE7C3B758C7D9A38B2A /* Frameworks */,
-				4213782F83E9459F97CCCEF13F944DB4 /* Resources */,
+				31A807A309399313AA0A7F2D06295E6A /* Sources */,
+				F883E6898EEF94470AB9B27508364B5C /* Frameworks */,
+				26549A419C299F579B7ACB2945EAA6AE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -555,17 +552,17 @@
 		};
 		F963E92DC99D6BADE383B85E5B48E4F7 /* MMTToolForXCGLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC7E2445D9F0B436C0F509BB0A7EBFE6 /* Build configuration list for PBXNativeTarget "MMTToolForXCGLog" */;
+			buildConfigurationList = 0C7C3EF38AE47508E032FBE7290695DA /* Build configuration list for PBXNativeTarget "MMTToolForXCGLog" */;
 			buildPhases = (
-				B82165C4EB6A61D8AECFBFB7D56647F5 /* Headers */,
-				4F15A8C86B4E9E31EA3E565ADA4E2388 /* Sources */,
-				72AD88E636340EA6594317F3073C0AD2 /* Frameworks */,
-				A6189E63823030089B9175BE4D5E0431 /* Resources */,
+				8EB02EB1E28A7493F0526C376984AB95 /* Headers */,
+				A84EAB522607A22D593473D7B524E04D /* Sources */,
+				E2478312B8AEE2D4E91F3A7B5E0E55D1 /* Frameworks */,
+				89100A31F07052C578CD04A341B91B82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DBA495BE9DDCDD9CF4C454D083CDA8C /* PBXTargetDependency */,
+				6AE53FB1FEC57F0D7E3F57E488AEF1E9 /* PBXTargetDependency */,
 			);
 			name = MMTToolForXCGLog;
 			productName = MMTToolForXCGLog;
@@ -584,7 +581,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5A3F02BB367847CDCAF3AE59F423FD1D /* PBXTargetDependency */,
+				C732A14459EEAF0A744931C50986C5F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMTToolForXCGLog_Tests";
 			productName = Pods_MMTToolForXCGLog_Tests;
@@ -623,23 +620,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D7E07BD5EAC38772934A106A54B1D94 /* Resources */ = {
+		16B14C9D5F8134972825E21CB5D0D5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEA446598F7205DCCFB6CD2A0EA3F323 /* ObjcExceptionBridging.bundle in Resources */,
+				6F63112D53ACA3AB9F3E03BF8CFF027D /* ObjcExceptionBridging.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4213782F83E9459F97CCCEF13F944DB4 /* Resources */ = {
+		26549A419C299F579B7ACB2945EAA6AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDAEA432354073F57A16EB950685342 /* PrivacyInfo.xcprivacy in Resources */,
+				0EE80773D9E794689C4116BA3F2A7A5D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6189E63823030089B9175BE4D5E0431 /* Resources */ = {
+		89100A31F07052C578CD04A341B91B82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -663,45 +660,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4462D795A2696AB253D51DEDFDF92CD7 /* Sources */ = {
+		31A807A309399313AA0A7F2D06295E6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3532DF6DAA0792C3099DAAE3617E5BA /* ObjcExceptionBridging-dummy.m in Sources */,
-				6548BC52F2C267FBBE12D3F1233BDC68 /* ObjectiveCMarker.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F15A8C86B4E9E31EA3E565ADA4E2388 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				553CD28392644CCA3C60DC27800AAE6B /* ANSIColorLogFormatter.swift in Sources */,
-				21A52427EF48D1D1C39D0DB6C5DB4F12 /* AppleSystemLogDestination.swift in Sources */,
-				B4969B68C029FF09F548805EDDC6514E /* AutoRotatingFileDestination.swift in Sources */,
-				B6B37A6BD659847124CCC64E19820ABB /* Base64LogFormatter.swift in Sources */,
-				940CF3ED131571B426F2983F018EA7C2 /* BaseDestination.swift in Sources */,
-				A91295D9BA22262C69021F54716AD14B /* BaseQueuedDestination.swift in Sources */,
-				D2B4C8B1A3BED4514F72C52AEA65F40D /* ConsoleDestination.swift in Sources */,
-				33FC413F60E6FC9A5B548C449FF1E9EE /* DestinationProtocol.swift in Sources */,
-				6F4D98621600BDFC946BCFA7464BC2BF /* DevFilter.swift in Sources */,
-				6606D828CA8707A904A710CD33A9015B /* DispatchQueue+XCGAdditions.swift in Sources */,
-				C5F78E9B53636491DFE003E199C65F90 /* FileDestination.swift in Sources */,
-				C61BD947DFFA523D2D96A395AAE245D9 /* FileNameFilter.swift in Sources */,
-				3C6F09BC07AE747C624E80C86C13DCED /* FilterProtocol.swift in Sources */,
-				D8DD4319BC7892E557CE39A38A7EF93A /* HelperFunctions.swift in Sources */,
-				8A3433F435085529C5460E839CB1AD90 /* LogDetails.swift in Sources */,
-				5563C205D55C77DA37C84B0D94ED6960 /* LogFormatterProtocol.swift in Sources */,
-				B078A4998CC5A657830798AA328EA6E3 /* MMTToolForXCGLog-dummy.m in Sources */,
-				409003C445A0CBE8484BBE7D7A476A93 /* PrePostFixLogFormatter.swift in Sources */,
-				78A9D6DED1AA013069DCB92494BCEF17 /* PrivacyInfo.xcprivacy in Sources */,
-				427F3732F9DB7FA39A3B3479D06A2B94 /* TagFilter.swift in Sources */,
-				FB5141511A22260C790AB9DC5030C1EA /* TestDestination.swift in Sources */,
-				AB4801B0F40D025CCE94D5AB7B4777C8 /* URL+XCGAdditions.swift in Sources */,
-				34AE8BD3F5B591ABA72A8A405091802A /* UserInfoFilter.swift in Sources */,
-				D1A0A49838E554ED7FB4B4AB6C9FAF69 /* UserInfoHelpers.swift in Sources */,
-				E4FC55EF7184AA43A79C661DECFF0C76 /* XCGLogger.swift in Sources */,
-				31A0453DDD3BEE4751C66A331B649B07 /* XcodeColorsLogFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +675,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A84EAB522607A22D593473D7B524E04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A41C6C5A00EFC7C5CFAAB1EB46DACE /* ANSIColorLogFormatter.swift in Sources */,
+				E5038FA3E86E1EDC5ACADF3012977BBB /* AppleSystemLogDestination.swift in Sources */,
+				9F08396795AE3546509F753FF4CA1132 /* AutoRotatingFileDestination.swift in Sources */,
+				9C548FCB01D8EB197F8B2C0E053DD406 /* Base64LogFormatter.swift in Sources */,
+				80F62348AFE553D74F506F4C468E5A56 /* BaseDestination.swift in Sources */,
+				B98AE578832F69167945B0902EDC1C01 /* BaseQueuedDestination.swift in Sources */,
+				2BBC63293C93A3163F0BCD11CAAA07A4 /* ConsoleDestination.swift in Sources */,
+				C13D922487B5529E67D12AD7F9692247 /* DestinationProtocol.swift in Sources */,
+				3992D68C60A18304D004AC071BB2C545 /* DevFilter.swift in Sources */,
+				9EED2706BA2D3CE1B32532CD1DA308BA /* DispatchQueue+XCGAdditions.swift in Sources */,
+				A93D357202842BCBCA71A87672ED9F26 /* FileDestination.swift in Sources */,
+				DC2D29EB2D1BBD918BF572743F1068AE /* FileNameFilter.swift in Sources */,
+				CC07E6977C0F0D32D80FDA3AD78B5671 /* FilterProtocol.swift in Sources */,
+				DCD66A5F0B5402E8DDD13F8F316A0361 /* HelperFunctions.swift in Sources */,
+				A068BCE3DB31B45A7E20DFAB927DF9AA /* LogDetails.swift in Sources */,
+				22E78E1778CFBAA5F13E4ACEDD801055 /* LogFormatterProtocol.swift in Sources */,
+				B1A113C233E8CA62F4C81F145C1D2617 /* MMTToolForXCGLog-dummy.m in Sources */,
+				BFD4D560908AF6876E355F5012C51B8C /* PrePostFixLogFormatter.swift in Sources */,
+				E3978D19F4F5A3C15D5FBAF3129A2C37 /* TagFilter.swift in Sources */,
+				DDCD06083C6DE1496FC5A766C2492F22 /* TestDestination.swift in Sources */,
+				4F93BFC312D22E14F59BAD1C646BD835 /* URL+XCGAdditions.swift in Sources */,
+				BE868BD70E6B48C2CE84029FAF1D3C27 /* UserInfoFilter.swift in Sources */,
+				CDFC1DB339B5AD4AC966C30AB6A4CDEE /* UserInfoHelpers.swift in Sources */,
+				259175A84904299743876749548FCB1A /* XCGLogger.swift in Sources */,
+				E92BA202EBD193840F264B63E8982488 /* XcodeColorsLogFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CADE1BC382E5C49ADA988FD8E04DA117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -721,103 +715,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0EC70607BBCC8612294E567160F9402 /* Sources */ = {
+		FFECA531398EDE252332FBAF510A2F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1558F669BC0E737ABB2BF6A0DD879F6E /* ObjcExceptionBridging-dummy.m in Sources */,
+				A66BA0F30D5CC4F9AC4FC0095AD0B013 /* ObjectiveCMarker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4548DB59AB12144B0E6A4743B4DAAE0F /* PBXTargetDependency */ = {
+		60D98DAFA12C8979025D61999BD91EBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMTToolForXCGLog;
 			target = F963E92DC99D6BADE383B85E5B48E4F7 /* MMTToolForXCGLog */;
-			targetProxy = 2851F66910260E59FD7EAA37BEE0F99D /* PBXContainerItemProxy */;
+			targetProxy = 3DF93361264924B23F43F48BBAE1D6B9 /* PBXContainerItemProxy */;
 		};
-		5A3F02BB367847CDCAF3AE59F423FD1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MMTToolForXCGLog_Example";
-			target = 2218EEF27380036CB6BA8708884A71F8 /* Pods-MMTToolForXCGLog_Example */;
-			targetProxy = 56B22035FBF908C997E88EDD9BFA70E1 /* PBXContainerItemProxy */;
-		};
-		7DBA495BE9DDCDD9CF4C454D083CDA8C /* PBXTargetDependency */ = {
+		6AE53FB1FEC57F0D7E3F57E488AEF1E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ObjcExceptionBridging;
 			target = 746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */;
-			targetProxy = 6F192824D0468F7417CB1FBC68CD53CA /* PBXContainerItemProxy */;
+			targetProxy = 17C6269F941AE23E9E80C4CA98A435CE /* PBXContainerItemProxy */;
 		};
-		8784840E77B961DD8F247CBB87332C1E /* PBXTargetDependency */ = {
+		9EBD83A3403411412787EC84FE6CF176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcExceptionBridging;
+			target = 746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */;
+			targetProxy = 4CDA3B2F7C754E56876D46511C3F25E4 /* PBXContainerItemProxy */;
+		};
+		A39052FD7B3BA7437B73682C61ABEF27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ObjcExceptionBridging-ObjcExceptionBridging";
 			target = EE116EE7886EAE96D12F2D0CAEB298D0 /* ObjcExceptionBridging-ObjcExceptionBridging */;
-			targetProxy = 15297F2D537CF34CBB46AFEE00D47A85 /* PBXContainerItemProxy */;
+			targetProxy = 327B7CCC05A6C4E392470A09B043D154 /* PBXContainerItemProxy */;
 		};
-		99E7A0022AAEF5DA7BDD95E006C13C13 /* PBXTargetDependency */ = {
+		C732A14459EEAF0A744931C50986C5F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ObjcExceptionBridging;
-			target = 746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */;
-			targetProxy = 5F30AB4E8137264448390B6980E57E99 /* PBXContainerItemProxy */;
+			name = "Pods-MMTToolForXCGLog_Example";
+			target = 2218EEF27380036CB6BA8708884A71F8 /* Pods-MMTToolForXCGLog_Example */;
+			targetProxy = 671ADD22789CD17D59C109800D7FABA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10F947BB39A429A2D78BE6B5F9503105 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B69756E90D3788B9E75A8D949B7F1E /* ObjcExceptionBridging.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjcExceptionBridging";
-				IBSC_MODULE = ObjcExceptionBridging;
-				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		1D69108735A4DE3CDA96A2F1EDEF4F08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1328D394E63D604AA7D1CFE3C6C5BCC8 /* MMTToolForXCGLog.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog.modulemap";
-				PRODUCT_MODULE_NAME = MMTToolForXCGLog;
-				PRODUCT_NAME = MMTToolForXCGLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AF3583407D67F2BD8DE33B6165E4E27 /* Debug */ = {
+		5DFC7B53EE7AFDEC616F02C16417C84E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79B69756E90D3788B9E75A8D949B7F1E /* ObjcExceptionBridging.debug.xcconfig */;
 			buildSettings = {
@@ -853,6 +796,23 @@
 			};
 			name = Debug;
 		};
+		6A4215A888701CBB87C753CFC622C369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjcExceptionBridging";
+				IBSC_MODULE = ObjcExceptionBridging;
+				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ObjcExceptionBridging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		72C7A701FDA951B776C9CBACD86E9EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD1F4F11DF6A1BCD444A13CF19AEFC31 /* Pods-MMTToolForXCGLog_Example.debug.xcconfig */;
@@ -886,6 +846,60 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A8D0AEA0B746D827F6869C9522DA3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging.modulemap";
+				PRODUCT_MODULE_NAME = ObjcExceptionBridging;
+				PRODUCT_NAME = ObjcExceptionBridging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AA3962CDF041CC63654A8DD1F5D8BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B69756E90D3788B9E75A8D949B7F1E /* ObjcExceptionBridging.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjcExceptionBridging";
+				IBSC_MODULE = ObjcExceptionBridging;
+				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = ObjcExceptionBridging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1016,60 +1030,6 @@
 			};
 			name = Release;
 		};
-		9EC8CB312EA2A743DC6ECCE69C34C6B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ObjcExceptionBridging";
-				IBSC_MODULE = ObjcExceptionBridging;
-				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ResourceBundle-ObjcExceptionBridging-ObjcExceptionBridging-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = ObjcExceptionBridging;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		ACEDA95AB6CC8BC8FC3A2F406199640C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D66C9836485A307ADC41AE52DACD9CC /* MMTToolForXCGLog.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog.modulemap";
-				PRODUCT_MODULE_NAME = MMTToolForXCGLog;
-				PRODUCT_NAME = MMTToolForXCGLog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C1030DF6B9B0182752F454A1FFBE983F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7986A1673CC06A2BA792BAF2E9F13D75 /* Pods-MMTToolForXCGLog_Example.release.xcconfig */;
@@ -1144,6 +1104,42 @@
 			};
 			name = Release;
 		};
+		D34402D293B128E45B6B8A04C37C7F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBD014DAA27F1494CE1B01E2527DEA1 /* MMTToolForXCGLog.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog.modulemap";
+				PRODUCT_MODULE_NAME = MMTToolForXCGLog;
+				PRODUCT_NAME = MMTToolForXCGLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D6F54C9C937E911C61F91ADA50EB1C23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EAA64D5BF6DCEA2F4CE8734D85A7E1A /* Pods-MMTToolForXCGLog_Tests.debug.xcconfig */;
@@ -1180,9 +1176,9 @@
 			};
 			name = Debug;
 		};
-		E5038B537A4144ED79C89C9B623EA75E /* Release */ = {
+		EC607180F00172EB63DF00DE868C0F4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B4CAEFAA5A707630DB1DF8B700C1D5 /* ObjcExceptionBridging.release.xcconfig */;
+			baseConfigurationReference = BE2EA58F7A065CD36C44A01122F0033D /* MMTToolForXCGLog.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1196,15 +1192,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ObjcExceptionBridging/ObjcExceptionBridging.modulemap";
-				PRODUCT_MODULE_NAME = ObjcExceptionBridging;
-				PRODUCT_NAME = ObjcExceptionBridging;
+				MODULEMAP_FILE = "Target Support Files/MMTToolForXCGLog/MMTToolForXCGLog.modulemap";
+				PRODUCT_MODULE_NAME = MMTToolForXCGLog;
+				PRODUCT_NAME = MMTToolForXCGLog;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1220,6 +1216,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C7C3EF38AE47508E032FBE7290695DA /* Build configuration list for PBXNativeTarget "MMTToolForXCGLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34402D293B128E45B6B8A04C37C7F45 /* Debug */,
+				EC607180F00172EB63DF00DE868C0F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		45DC4C943BE5B7917261AC47B99ECCCD /* Build configuration list for PBXNativeTarget "Pods-MMTToolForXCGLog_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1247,29 +1252,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC7E2445D9F0B436C0F509BB0A7EBFE6 /* Build configuration list for PBXNativeTarget "MMTToolForXCGLog" */ = {
+		D5652E6592663F8C6E26CE4D5DC64DC5 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D69108735A4DE3CDA96A2F1EDEF4F08 /* Debug */,
-				ACEDA95AB6CC8BC8FC3A2F406199640C /* Release */,
+				5DFC7B53EE7AFDEC616F02C16417C84E /* Debug */,
+				7A8D0AEA0B746D827F6869C9522DA3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB502710C14EE89A9F2E4758F1DEEE6 /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging-ObjcExceptionBridging" */ = {
+		F2EDCC02073A9AF2DB996B1F6E8876CB /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging-ObjcExceptionBridging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10F947BB39A429A2D78BE6B5F9503105 /* Debug */,
-				9EC8CB312EA2A743DC6ECCE69C34C6B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5FA9F0EFBE3FB71CC76B2A57B60AEAD /* Build configuration list for PBXNativeTarget "ObjcExceptionBridging" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AF3583407D67F2BD8DE33B6165E4E27 /* Debug */,
-				E5038B537A4144ED79C89C9B623EA75E /* Release */,
+				7AA3962CDF041CC63654A8DD1F5D8BB6 /* Debug */,
+				6A4215A888701CBB87C753CFC622C369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

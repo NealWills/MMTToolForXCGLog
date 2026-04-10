@@ -1,5 +1,5 @@
 PODS:
-  - MMTToolForXCGLog (0.1.1):
+  - MMTToolForXCGLog (0.1.7):
     - ObjcExceptionBridging (~> 7.1.5)
   - ObjcExceptionBridging (7.1.5):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.5)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMTToolForXCGLog: fcf21fbfabb084c932345ae7af46b78b1b5cdc9a
+  MMTToolForXCGLog: 3db82c439c66c8f7fd17ceabab4157e95f78e104
   ObjcExceptionBridging: d3d37d62981bb7f252ecb31b62d7e23a96bbfb8a
 
 PODFILE CHECKSUM: 9d5b2efb6b597117ee542cfd917c0db4dfb83677
